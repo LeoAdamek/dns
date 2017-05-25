@@ -1,0 +1,5 @@
+ptr("1", "megiumi6.breakerofthings.com")
+ptr("2", "megiumi6.breakerofthings.tech")
+ptr("3", "megiumi6.breakerofthings.solutions")
+ptr("4", "megiumi6.breakerofthings.life")
+ptr("5", "megiumi6.breakerofthings.email")
