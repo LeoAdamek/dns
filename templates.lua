@@ -5,6 +5,8 @@ function breaker_of_things(domain)
     a("megumi", "139.162.242.110")
     aaaa("megumi6", "2a01:7e00::f03c:91ff:fed5:6a9e")
     
-    txt("megumi._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9bwJJXjMLUn2JbC4OBMWX5giuhxcGbdtrSEs0+2SWLOe6BDS+xVwsT1StWjBUq/2liJicFoLuxhQFNn5hxzxVKiaPQ3eZc/TNy79nD/m8hqzqCmC6ZAtdg6wYkk6VCMYpHzZ7PgwJB6bE96ci072HaG/YNqKe2xEbM95ryjNo+wIDAQAB")
+    dkim_key = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGnojLHjH8AQXRmv63TlYapXXP+TS6no9Meljx8V3RqXWDwqjHTES5UgFdPk5qftHeKOK79/ZzMq5gZrrvN97FOAWb4q+tEKZzm3eKyN4A0w/vs/aLy3gr4JsV1skfrxKmXdtxDDimq7yKGunnBvm52yO2OyUHRdzuBspSU/jQ1QIDAQAB"
+    
+    txt("megumi._domainkey", "v=DKIM1; k=rsa; p="..dkim_key)
     txt(domain, "v=spf1 a:megumi.breakerofthings.email a:megumi6.breakerofthings.email -all")
 end
