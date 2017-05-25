@@ -10,7 +10,7 @@ function breaker_of_things(domain)
     txt("megumi._domainkey", "v=DKIM1; k=rsa; p="..dkim_key)
     txt(domain, "v=spf1 a:megumi.breakerofthings.email a:megumi6.breakerofthings.email -all")
     
-    mx(domain, "1", "megumi.breakerofthings.email")
-    mx(domain, "2", "megumi6.breakerofthings.email")
-    mx(domain, "3", domain)
+    mx(domain, "megumi.breakerofthings.email", 1)
+    mx(domain, "megumi6.breakerofthings.email", 2)
+    mx(domain, domain, 3)
 end
