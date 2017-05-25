@@ -1,0 +1,5 @@
+ptr(1, "megumi.breakerofthings.com")
+ptr(2, "megumi.breakerofthings.tech")
+ptr(3, "megumi.breakerofthings.solutions")
+ptr(4, "megumi.breakerofthings.life")
+ptr(5, "megumi.breakerofthings.email")
