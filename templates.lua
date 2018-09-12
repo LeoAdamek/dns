@@ -26,4 +26,8 @@ function breaker_of_things(domain)
     mx(domain, "megumi.breakerofthings.email", 1)
     mx(domain, "megumi6.breakerofthings.email", 2)
     mx(domain, domain, 3)
+    
+    for n=1,32 do
+       txt("x"..n, "Placeholder TXT  Record") 
+    end
 end
