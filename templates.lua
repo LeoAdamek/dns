@@ -7,6 +7,8 @@ function breaker_of_things(domain)
     a(domain, "139.162.242.110")
     aaaa(domain, "2a01:7e00::f03c:91ff:fed5:6a9e")
     a("megumi", "139.162.242.110")
+    a("mitty", "151.236.220.70")
+    aaaa("mitty", "2a01:7e00::f03c:91ff:feaf:4e0f")
     aaaa("megumi", "2a01:7e00::f03c:91ff:fed5:6a9e")
     aaaa("megumi6", "2a01:7e00::f03c:91ff:fed5:6a9e")
     
