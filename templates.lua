@@ -3,8 +3,8 @@ function breaker_of_things(domain)
     -- Alias www. to @
     alias(concat("www", domain), domain)
     
-    a(domain, "139.162.242.110")
-    aaaa(domain, "2a01:7e00::f03c:91ff:fed5:6a9e")
+    --a(domain, "139.162.242.110")
+    --aaaa(domain, "2a01:7e00::f03c:91ff:fed5:6a9e")
 
         
     a("megumi", "139.162.242.110")
