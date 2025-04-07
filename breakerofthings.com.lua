@@ -9,7 +9,7 @@ github_pages_v6 = { "2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:800
 
 for idx = 1, 4 do
   a(_a, github_pages_v4[idx])
-  aaaa(_a, github_pages_v4[idx])
+  aaaa(_a, github_pages_v6[idx])
 end
 
 cname("www", _a)  
