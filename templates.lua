@@ -3,9 +3,9 @@ function breaker_of_things(domain)
     -- Alias www. to @
     alias(concat("www", domain), domain)
     
-    a(domain, "139.162.242.110")
-    aaaa(domain, "2a01:7e00::f03c:91ff:fed5:6a9e")
-
+    a(domain, "185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153")
+    aaaa(domain, "2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153")
+    
         
     a("megumi", "139.162.242.110")
     a("mitty", "151.236.220.70")    
