@@ -1,16 +1,12 @@
 function breaker_of_things(domain)
-            -- Alias www. to @
+    
+    -- Alias www. to @
     alias(concat("www", domain), domain)
     
-    local github_pages_ips = {}
-    github_pages_ips["v4"] = { "185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153" }
-    github_pages_ips["v6"] = { "2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153" }
+    a(domain, "139.162.242.110")
+    aaaa(domain, "2a01:7e00::f03c:91ff:fed5:6a9e")
 
-    for idx = 1, 4 do
-        a(domain, github_pages_ips["v4"][idx])
-        aaaa(domain, github_pages_ips["v6"][idx])
-    end
-    
+        
     a("megumi", "139.162.242.110")
     a("mitty", "151.236.220.70")    
     aaaa("megumi", "2a01:7e00::f03c:91ff:fed5:6a9e")    
