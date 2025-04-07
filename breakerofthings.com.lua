@@ -4,5 +4,5 @@ breaker_of_things(_a)
 txt("_github-pages-challenge-LeoAdamek", "9aeeaab8cea30f9313bbd2cf681c98", 3600)
 
 -- Github pages alias
-alias(_a, "leoadamek.github.com")
+aname(_a, "leoadamek.github.com.")
 cname("www", _a)  
