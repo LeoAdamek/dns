@@ -1,3 +1,4 @@
 breaker_of_things(_a)
 txt(_a, "keybase-site-verification=M4p_Qob3PBz1eECs0aTV-oJyi_dQBBhPbGLEspL3smY")
 txt(_a, "google-site-verification=60zRmcVG226JZq51cBDggD5Qaxrbmip-ozIyuDb3ZD8", 60)
+txt("google._domainkey", "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArJhjBOcjvN/toi3WoQ64Hz2/2emaOF9A8AjLTNvtZI8agACXoPf2Cp5vEsNp8AnXw5JhjtDkEfF7LU86Gy4ZTsH33xt7TSPcrHeCVUgpHHDlB+FCjyFVPmD3p0fnWMMyMKQKiWFFcrXqLmD5VsweNd9HtdjwIjKyVi2zccsgcQ1Zn49KGRYjgpB4tVnkM5O06Ltgu/olbkYTf+vaXVXsD+0jBXjOigAr/lKptG6HkFM5nyqBpB9Cu4kGctBHnoHPJjsaX/2uCh1y8haLpFmJ5b8p3cHKnK3Aq87yhsysmp5leXihwPVwH2kMV7L11t57f2O82ITxf6/KBJNsbcU2EQIDAQAB", 3600)
